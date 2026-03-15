@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE fuel [
+  <!ELEMENT fuel (fuel_station)>
+  <!ATTLIST fuel lat CDATA #REQUIRED
+                 long CDATA #REQUIRED
+                 qTimeStamp CDATA #REQUIRED
+                 msg CDATA #REQUIRED>
+  <!ELEMENT fuel_station (station*)>
+  <!ELEMENT station (county,municipality,dd,address,companyName,lat,long,distance,brand,phone,selling_gas_details)>
+  <!ATTLIST station stationID CDATA #REQUIRED
+                    h24 CDATA #REQUIRED>
+  <!ELEMENT county (#PCDATA)*>
+  <!ATTLIST county countyID CDATA #REQUIRED>
+  <!ELEMENT municipality (#PCDATA)*>
+  <!ATTLIST municipality municipalityID CDATA #REQUIRED>
+  <!ELEMENT dd (#PCDATA)*>
+  <!ATTLIST dd ddID CDATA #REQUIRED>
+  <!ELEMENT address (#PCDATA)*>
+  <!ELEMENT companyName (#PCDATA)*>
+  <!ELEMENT lat (#PCDATA)*>
+  <!ELEMENT long (#PCDATA)*>
+  <!ELEMENT distance (#PCDATA)*>
+  <!ELEMENT brand (#PCDATA)*>
+  <!ATTLIST brand brandID CDATA #REQUIRED>
+  <!ELEMENT phone (#PCDATA)*>
+  <!ELEMENT selling_gas_details (gas*)>
+  <!ELEMENT gas (#PCDATA)*>
+  <!ATTLIST gas fuelTypeID CDATA #REQUIRED
+                price CDATA #REQUIRED
+                priceTimeStamp CDATA #REQUIRED>
+]>
+
+<fuel lat="37.9838" long="23.7275" qTimeStamp="2026-03-15 11:40:00" msg="Fuel station data loaded successfully.">
+  <fuel_station>
+
+    <station stationID="31001" h24="Yes">
+      <county countyID="1001">Αττικής</county>
+      <municipality municipalityID="501">Αθηναίων</municipality>
+      <dd ddID="7001">1η Δημοτική Κοινότητα</dd>
+      <address>ΛΕΩΦΟΡΟΣ ΚΗΦΙΣΟΥ 144, ΑΘΗΝΑ</address>
+      <companyName>AEGEAN CENTRAL ATHENS</companyName>
+      <lat>37.9871</lat>
+      <long>23.7128</long>
+      <distance>2.4</distance>
+      <brand brandID="1">AEGEAN</brand>
+      <phone>2105123401</phone>
+      <selling_gas_details>
+        <gas fuelTypeID="1" price="1.879" priceTimeStamp="2026-03-15 08:10:00">Unleaded 95</gas>
+        <gas fuelTypeID="3" price="2.049" priceTimeStamp="2026-03-15 08:10:00">Unleaded 100</gas>
+        <gas fuelTypeID="2" price="1.639" priceTimeStamp="2026-03-15 08:11:00">Diesel Premium</gas>
+      </selling_gas_details>
+    </station>
+
+    <station stationID="31002" h24="No">
+      <county countyID="1001">Αττικής</county>
+      <municipality municipalityID="510">Πειραιώς</municipality>
+      <dd ddID="7002">Κέντρο Πειραιά</dd>
+      <address>ΑΚΤΗ ΠΟΣΕΙΔΩΝΟΣ 18, ΠΕΙΡΑΙΑΣ</address>
+      <companyName>HELLENIC FUELS PIRAEUS</companyName>
+      <lat>37.9429</lat>
+      <long>23.6468</long>
+      <distance>9.8</distance>
+      <brand brandID="2">SHELL</brand>
+      <phone>2104128723</phone>
+      <selling_gas_details>
+        <gas fuelTypeID="1" price="1.899" priceTimeStamp="2026-03-15 08:24:00">FuelSave Unleaded</gas>
+        <gas fuelTypeID="2" price="1.659" priceTimeStamp="2026-03-15 08:25:00">V-Power Diesel</gas>
+      </selling_gas_details>
+    </station>
+
+    <station stationID="31003" h24="Yes">
+      <county countyID="1001">Αττικής</county>
+      <municipality municipalityID="530">Χαλανδρίου</municipality>
+      <dd ddID="7003">Πολύδροσο</dd>
+      <address>ΛΕΩΦΟΡΟΣ ΠΕΝΤΕΛΗΣ 88, ΧΑΛΑΝΔΡΙ</address>
+      <companyName>ELIN NORTH ATHENS</companyName>
+      <lat>38.0196</lat>
+      <long>23.7984</long>
+      <distance>11.2</distance>
+      <brand brandID="3">ELIN</brand>
+      <phone>2106897731</phone>
+      <selling_gas_details>
+        <gas fuelTypeID="1" price="1.869" priceTimeStamp="2026-03-15 09:02:00">Crystal Unleaded 95</gas>
+        <gas fuelTypeID="2" price="1.629" priceTimeStamp="2026-03-15 09:03:00">Crystal Diesel</gas>
+        <gas fuelTypeID="4" price="0.969" priceTimeStamp="2026-03-15 09:04:00">Autogas LPG</gas>
+      </selling_gas_details>
+    </station>
+
+    <station stationID="31004" h24="Yes">
+      <county countyID="1002">Θεσσαλονίκης</county>
+      <municipality municipalityID="610">Θεσσαλονίκης</municipality>
+      <dd ddID="7004">Κέντρο</dd>
+      <address>26ΗΣ ΟΚΤΩΒΡΙΟΥ 54, ΘΕΣΣΑΛΟΝΙΚΗ</address>
+      <companyName>BP THESSALONIKI PORT</companyName>
+      <lat>40.6403</lat>
+      <long>22.9347</long>
+      <distance>1.9</distance>
+      <brand brandID="4">BP</brand>
+      <phone>2310521430</phone>
+      <selling_gas_details>
+        <gas fuelTypeID="1" price="1.859" priceTimeStamp="2026-03-15 08:40:00">BP Unleaded 95</gas>
+        <gas fuelTypeID="3" price="2.019" priceTimeStamp="2026-03-15 08:41:00">BP Ultimate 100</gas>
+        <gas fuelTypeID="2" price="1.619" priceTimeStamp="2026-03-15 08:41:30">BP Diesel Ultimate</gas>
+      </selling_gas_details>
+    </station>
+
+    <station stationID="31005" h24="No">
+      <county countyID="1003">Λάρισας</county>
+      <municipality municipalityID="710">Λαρισαίων</municipality>
+      <dd ddID="7005">Νέα Σμύρνη</dd>
+      <address>ΗΡΩΩΝ ΠΟΛΥΤΕΧΝΕΙΟΥ 110, ΛΑΡΙΣΑ</address>
+      <companyName>AVIN LARISSA EAST</companyName>
+      <lat>39.6325</lat>
+      <long>22.4263</long>
+      <distance>1.1</distance>
+      <brand brandID="5">AVIN</brand>
+      <phone>2410230107</phone>
+      <selling_gas_details>
+        <gas fuelTypeID="1" price="1.829" priceTimeStamp="2026-03-15 09:16:00">Regular Unleaded 95</gas>
+        <gas fuelTypeID="2" price="1.599" priceTimeStamp="2026-03-15 09:17:00">Diesel Κίνησης</gas>
+      </selling_gas_details>
+    </station>
+
+    <station stationID="31006" h24="Yes">
+      <county countyID="1004">Ηρακλείου</county>
+      <municipality municipalityID="810">Ηρακλείου</municipality>
+      <dd ddID="7006">Νέα Αλικαρνασσός</dd>
+      <address>ΛΕΩΦΟΡΟΣ ΙΚΑΡΟΥ 21, ΗΡΑΚΛΕΙΟ</address>
+      <companyName>REVOIL CRETE AIRPORT</companyName>
+      <lat>35.3394</lat>
+      <long>25.1802</long>
+      <distance>3.7</distance>
+      <brand brandID="6">REVOIL</brand>
+      <phone>2810342281</phone>
+      <selling_gas_details>
+        <gas fuelTypeID="1" price="1.939" priceTimeStamp="2026-03-15 07:58:00">Revoil Unleaded 95</gas>
+        <gas fuelTypeID="2" price="1.699" priceTimeStamp="2026-03-15 07:58:30">Revoil Diesel</gas>
+        <gas fuelTypeID="4" price="1.029" priceTimeStamp="2026-03-15 07:59:00">LPG Auto</gas>
+      </selling_gas_details>
+    </station>
+
+  </fuel_station>
+</fuel>

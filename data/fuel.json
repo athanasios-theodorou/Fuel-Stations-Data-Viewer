@@ -1,0 +1,288 @@
+{
+  "fuel": {
+    "fuel_station": {
+      "station": [
+        {
+          "county": {
+            "_countyID": "1001",
+            "__text": "Αττικής"
+          },
+          "municipality": {
+            "_municipalityID": "501",
+            "__text": "Αθηναίων"
+          },
+          "dd": {
+            "_ddID": "7001",
+            "__text": "1η Δημοτική Κοινότητα"
+          },
+          "address": "ΛΕΩΦΟΡΟΣ ΚΗΦΙΣΟΥ 144, ΑΘΗΝΑ",
+          "companyName": "AEGEAN CENTRAL ATHENS",
+          "lat": "37.9871",
+          "long": "23.7128",
+          "distance": "2.4",
+          "brand": {
+            "_brandID": "1",
+            "__text": "AEGEAN"
+          },
+          "phone": "2105123401",
+          "selling_gas_details": {
+            "gas": [
+              {
+                "_fuelTypeID": "1",
+                "_price": "1.879",
+                "_priceTimeStamp": "2026-03-15 08:10:00",
+                "__text": "Unleaded 95"
+              },
+              {
+                "_fuelTypeID": "3",
+                "_price": "2.049",
+                "_priceTimeStamp": "2026-03-15 08:10:00",
+                "__text": "Unleaded 100"
+              },
+              {
+                "_fuelTypeID": "2",
+                "_price": "1.639",
+                "_priceTimeStamp": "2026-03-15 08:11:00",
+                "__text": "Diesel Premium"
+              }
+            ]
+          },
+          "_stationID": "31001",
+          "_h24": "Yes"
+        },
+        {
+          "county": {
+            "_countyID": "1001",
+            "__text": "Αττικής"
+          },
+          "municipality": {
+            "_municipalityID": "510",
+            "__text": "Πειραιώς"
+          },
+          "dd": {
+            "_ddID": "7002",
+            "__text": "Κέντρο Πειραιά"
+          },
+          "address": "ΑΚΤΗ ΠΟΣΕΙΔΩΝΟΣ 18, ΠΕΙΡΑΙΑΣ",
+          "companyName": "HELLENIC FUELS PIRAEUS",
+          "lat": "37.9429",
+          "long": "23.6468",
+          "distance": "9.8",
+          "brand": {
+            "_brandID": "2",
+            "__text": "SHELL"
+          },
+          "phone": "2104128723",
+          "selling_gas_details": {
+            "gas": [
+              {
+                "_fuelTypeID": "1",
+                "_price": "1.899",
+                "_priceTimeStamp": "2026-03-15 08:24:00",
+                "__text": "FuelSave Unleaded"
+              },
+              {
+                "_fuelTypeID": "2",
+                "_price": "1.659",
+                "_priceTimeStamp": "2026-03-15 08:25:00",
+                "__text": "V-Power Diesel"
+              }
+            ]
+          },
+          "_stationID": "31002",
+          "_h24": "No"
+        },
+        {
+          "county": {
+            "_countyID": "1001",
+            "__text": "Αττικής"
+          },
+          "municipality": {
+            "_municipalityID": "530",
+            "__text": "Χαλανδρίου"
+          },
+          "dd": {
+            "_ddID": "7003",
+            "__text": "Πολύδροσο"
+          },
+          "address": "ΛΕΩΦΟΡΟΣ ΠΕΝΤΕΛΗΣ 88, ΧΑΛΑΝΔΡΙ",
+          "companyName": "ELIN NORTH ATHENS",
+          "lat": "38.0196",
+          "long": "23.7984",
+          "distance": "11.2",
+          "brand": {
+            "_brandID": "3",
+            "__text": "ELIN"
+          },
+          "phone": "2106897731",
+          "selling_gas_details": {
+            "gas": [
+              {
+                "_fuelTypeID": "1",
+                "_price": "1.869",
+                "_priceTimeStamp": "2026-03-15 09:02:00",
+                "__text": "Crystal Unleaded 95"
+              },
+              {
+                "_fuelTypeID": "2",
+                "_price": "1.629",
+                "_priceTimeStamp": "2026-03-15 09:03:00",
+                "__text": "Crystal Diesel"
+              },
+              {
+                "_fuelTypeID": "4",
+                "_price": "0.969",
+                "_priceTimeStamp": "2026-03-15 09:04:00",
+                "__text": "Autogas LPG"
+              }
+            ]
+          },
+          "_stationID": "31003",
+          "_h24": "Yes"
+        },
+        {
+          "county": {
+            "_countyID": "1002",
+            "__text": "Θεσσαλονίκης"
+          },
+          "municipality": {
+            "_municipalityID": "610",
+            "__text": "Θεσσαλονίκης"
+          },
+          "dd": {
+            "_ddID": "7004",
+            "__text": "Κέντρο"
+          },
+          "address": "26ΗΣ ΟΚΤΩΒΡΙΟΥ 54, ΘΕΣΣΑΛΟΝΙΚΗ",
+          "companyName": "BP THESSALONIKI PORT",
+          "lat": "40.6403",
+          "long": "22.9347",
+          "distance": "1.9",
+          "brand": {
+            "_brandID": "4",
+            "__text": "BP"
+          },
+          "phone": "2310521430",
+          "selling_gas_details": {
+            "gas": [
+              {
+                "_fuelTypeID": "1",
+                "_price": "1.859",
+                "_priceTimeStamp": "2026-03-15 08:40:00",
+                "__text": "BP Unleaded 95"
+              },
+              {
+                "_fuelTypeID": "3",
+                "_price": "2.019",
+                "_priceTimeStamp": "2026-03-15 08:41:00",
+                "__text": "BP Ultimate 100"
+              },
+              {
+                "_fuelTypeID": "2",
+                "_price": "1.619",
+                "_priceTimeStamp": "2026-03-15 08:41:30",
+                "__text": "BP Diesel Ultimate"
+              }
+            ]
+          },
+          "_stationID": "31004",
+          "_h24": "Yes"
+        },
+        {
+          "county": {
+            "_countyID": "1003",
+            "__text": "Λάρισας"
+          },
+          "municipality": {
+            "_municipalityID": "710",
+            "__text": "Λαρισαίων"
+          },
+          "dd": {
+            "_ddID": "7005",
+            "__text": "Νέα Σμύρνη"
+          },
+          "address": "ΗΡΩΩΝ ΠΟΛΥΤΕΧΝΕΙΟΥ 110, ΛΑΡΙΣΑ",
+          "companyName": "AVIN LARISSA EAST",
+          "lat": "39.6325",
+          "long": "22.4263",
+          "distance": "1.1",
+          "brand": {
+            "_brandID": "5",
+            "__text": "AVIN"
+          },
+          "phone": "2410230107",
+          "selling_gas_details": {
+            "gas": [
+              {
+                "_fuelTypeID": "1",
+                "_price": "1.829",
+                "_priceTimeStamp": "2026-03-15 09:16:00",
+                "__text": "Regular Unleaded 95"
+              },
+              {
+                "_fuelTypeID": "2",
+                "_price": "1.599",
+                "_priceTimeStamp": "2026-03-15 09:17:00",
+                "__text": "Diesel Κίνησης"
+              }
+            ]
+          },
+          "_stationID": "31005",
+          "_h24": "No"
+        },
+        {
+          "county": {
+            "_countyID": "1004",
+            "__text": "Ηρακλείου"
+          },
+          "municipality": {
+            "_municipalityID": "810",
+            "__text": "Ηρακλείου"
+          },
+          "dd": {
+            "_ddID": "7006",
+            "__text": "Νέα Αλικαρνασσός"
+          },
+          "address": "ΛΕΩΦΟΡΟΣ ΙΚΑΡΟΥ 21, ΗΡΑΚΛΕΙΟ",
+          "companyName": "REVOIL CRETE AIRPORT",
+          "lat": "35.3394",
+          "long": "25.1802",
+          "distance": "3.7",
+          "brand": {
+            "_brandID": "6",
+            "__text": "REVOIL"
+          },
+          "phone": "2810342281",
+          "selling_gas_details": {
+            "gas": [
+              {
+                "_fuelTypeID": "1",
+                "_price": "1.939",
+                "_priceTimeStamp": "2026-03-15 07:58:00",
+                "__text": "Revoil Unleaded 95"
+              },
+              {
+                "_fuelTypeID": "2",
+                "_price": "1.699",
+                "_priceTimeStamp": "2026-03-15 07:58:30",
+                "__text": "Revoil Diesel"
+              },
+              {
+                "_fuelTypeID": "4",
+                "_price": "1.029",
+                "_priceTimeStamp": "2026-03-15 07:59:00",
+                "__text": "LPG Auto"
+              }
+            ]
+          },
+          "_stationID": "31006",
+          "_h24": "Yes"
+        }
+      ]
+    },
+    "_lat": "37.9838",
+    "_long": "23.7275",
+    "_qTimeStamp": "2026-03-15 11:40:00",
+    "_msg": "Fuel station data loaded successfully."
+  }
+}
